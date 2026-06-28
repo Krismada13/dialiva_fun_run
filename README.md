@@ -11,8 +11,8 @@ Halaman web statis untuk peserta **Dialiva Fun Run** (19 Juli 2026) mengecek nom
 ```
 .
 ├── Index.html                          # Markup halaman (form pencarian + 3 state hasil)
-├── Dialiva Fun Run BIB Searcher.css     # Styling (tema merah/biru, kartu BIB ala race bib asli)
-└── Dialiva Fun Run BIB Searcher.js      # Logic pencarian + data dummy peserta
+├── Dialiva-Fun-Run-BIB-Searcher.css     # Styling (tema merah/biru, kartu BIB ala race bib asli)
+└── Dialiva-Fun-Run-BIB-Searcher.js      # Logic pencarian + data dummy peserta
 ```
 
 > ⚠️ **Catatan penamaan file:** `Index.html` memanggil CSS & JS dengan nama berspasi (`Dialiva Fun Run BIB Searcher.css/js`), tapi file yang diupload pakai underscore (`Dialiva_Fun_Run_BIB_Searcher.css/js`). Samakan dulu nama filenya (pilih salah satu konvensi) sebelum deploy, supaya `<link>` dan `<script src>` di HTML tidak 404.
